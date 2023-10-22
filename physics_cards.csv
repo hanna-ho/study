@@ -1,0 +1,10 @@
+Front,Back
+Coulomb-törvény,"[latex] F = k\frac{Q_{1}Q_{2}}{r^{2}} [/latex]"
+Coulomb-állandó,"[latex] k = \frac{1}{4\pi \epsilon} [/latex]"
+Elektrosztatikus erő általános közegben,"[latex] F = \frac{Q_{1}Q_{2}}{4\pi \epsilon} \frac{1}{r^{2}} [/latex]"
+Töltés az 1-es elektródán,"[latex] Q_1 = C_{10}\Phi_{1} + C_{12}(\Phi_{1}-\Phi_{2}) [/latex]"
+Töltés a 2-es elektródán,"[latex] Q_2 = C_{21}(\Phi_{1}-\Phi_{2}) + C_{20}\Phi_{2} [/latex]"
+Soros kapacitás,"[latex] \frac{1}{C} = \frac{1}{C_{1}}+\frac{1}{C_{2}}+ \ldots [/latex]"
+Dipólus momentum,"[latex] p = Ql = \alpha E [/latex]"
+Elektromos elmozdulási tér,"[latex] D = \epsilon E [/latex]"
+Polarizációs vektor,"[latex] P = \frac{N}{dv} \alpha E = \epsilon_{0} \kappa E [/latex]"

@@ -20,7 +20,7 @@ A töltés mennyiségét coulomb-ban mérjük. Ennek a hivatalos definícója: a
 A dolgoknak ez a fundamentális tulajdonsága hasonlóan működik, mint egy másik fundamentális tulajdonság: a tömeg. Tehát erők létrehozásában és kioltásában vesz részt.
 A töltések között fellépő erőt elektrosztatikus erőnek hívjuk. Fun fact: ez is a távolság négyzetével csökken a gravitációs erőhöz hasonlóan. Ennek is van iránya és mértéke, ezért vektorként értelmezzük.
 
-F = k\frac{Q_{1}Q_{2}}{r^{2}}
+\[ F = k\frac{Q_{1}Q_{2}}{r^{2}} \]
 
 Ahol Q_{1} és Q_{2} töltések mennyisége, az r a két töltés távolsága, a k pedig a Coulomb állandó (akárcsak a Newton állandó a gravitációs erőnél). Ez az állandó azt mutatja meg, hogy mekkora intenzitással lépnek interakcióba töltések.
 
@@ -30,15 +30,15 @@ Ebből látjuk, hogy a töltés által kifejthető erő függ a közegtől. Egé
 
 A k-t kiszámolhatjuk bármilyen közegre, ha tudjuk a közeg permittivitását (\epsilon):
 
-k = \frac{1}{4\pi \epsilon}
+\[ k = \frac{1}{4\pi \epsilon} \]
 
 Ennek alapján az elektrosztatikai erő általánosítva tetszőleges közegre:
 
-F = \frac{1}{4\pi \epsilon} \frac{Q_{1}Q_{2}}{r^{2}}
+\[ F = \frac{1}{4\pi \epsilon} \frac{Q_{1}Q_{2}}{r^{2}} \]
 
 Aminek az átalakított verzióját használjuk az órán:
 
-F = \frac{Q_{1}Q_{2}}{4\pi \epsilon} \frac{1}{r^{2}}
+\[ F = \frac{Q_{1}Q_{2}}{4\pi \epsilon} \frac{1}{r^{2}} \]
 
 
 2. Elektromos mezők
@@ -48,8 +48,8 @@ Videó: https://www.youtube.com/watch?v=mdulzEfQXDE
 # Elektróda rendszerek
 3 elektróda, 1 föld, 2 töltés alatt
 
-Q_1 = C_10Φ_1 + C_12(Φ_1-Φ_2)
-Q_2 = C_21(Φ_1-Φ_2) + C_20Φ_2
+\[ Q_1 = C_{10}\Phi_{1} + C_{12}(\Phi_{1}-\Phi_{2}) \]
+\[ Q_2 = C_{21}(\Phi_{1}-\Phi_{2}) + C_{20}\Phi_{2} \]
 
 C_10Φ_1 = az 1-es elektróda önkapacitása, a kapacitás, mellyel az elektróda bír, a többi elektródától függetlenül
 C_12(Φ_1-Φ_2) = az1-es alaktróda a két töltés alatt álló elektróda feszültségkülönbségéből adódó töltése
@@ -61,7 +61,8 @@ C_21(Φ_2-Φ_1) = a 2-es elektróda a két töltés alatt álló elektróda fesz
 Soros kapcsolás:
 - Ugyanannyi a töltés az egyes köndenzátorokban
 - A feszültség eltérő lehet a kondenzátorok között. Az összfeszültség az egyes feszültségek összege.
-- Az összkapacitás reciproka az egyes kapacitások reciprokának az összege: 1/C = 1/C_1+1/C_2...
+- Az összkapacitás reciproka az egyes kapacitások reciprokának az összege:
+\[ \frac{1}{C} = \frac{1}{C_{1}}+\frac{1}{C_{2}}+ \ldots \]
 
 Párhuzamos kapcsolás:
 - Az össztöltés az egyes kapacitorok töltésének összege
@@ -69,7 +70,7 @@ Párhuzamos kapcsolás:
 - Az összkapacitás az egyes kondenzátorok kapacitásának összege.
 
 # Szigetelők
-Szigetelők nem engedik az elektronokat szabason áramlani, de elektromos mező hatására polarizálódnak, így tudnak elektromos mező formájában töltést raktározni.
+Szigetelők nem engedik az elektronokat szabadon áramlani, de elektromos mező hatására polarizálódnak, így tudnak elektromos mező formájában töltést raktározni.
 
 ## Mikroszkopikus modell
 Részecskék elnyúlnak, elektronfelhőjük elmozdul az elektromos mező által kifejtett erőhatással párhuzamosan
@@ -86,6 +87,7 @@ N db dipólus momentumának sűrűségét határozzuk meg (másnéven polarizác
 dv = dipólus térfogata
 K = dielektromos szuszceptibilitás (polarizálhatóság)
 
-P = (N/dv)*αE = ε_0κE
+\[ P = \frac{N}{dv} \alpha E = \epsilon_{0} K E \]
+
 
 # Folytonossági tételek
