@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1697972670 source:/home/hanna/projects/study/coding/basic_practice/main.c
+	<stdio.h>
+	<stdlib.h>
+
